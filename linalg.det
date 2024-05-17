@@ -1,0 +1,18 @@
+import numpy as np
+
+# linalg.det
+
+# Example 1: 
+A = np.array([[1, 2], [3, 4]])
+det_A = np.linalg.det(A)
+print(det_A)  # Output: -2.0
+
+# Example 2: 
+B = np.array([[1, 2, 3], [0, 1, 4], [5, 6, 0]])
+det_B = np.linalg.det(B)
+print(det_B)  # Output: 1.0000000000000007
+
+# Example 3: 
+C = np.diag([1, 2, 3])
+det_C = np.linalg.det(C)
+print(det_C)  # Output: 6.0
